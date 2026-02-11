@@ -30,7 +30,7 @@ jobs:
         docker build -t cesaralla/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push cesaralla/docker-graphql:0.0.2 .
+        docker push cesaralla/docker-graphql:0.0.2
     
         
         
